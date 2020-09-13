@@ -1,0 +1,180 @@
+html{
+    background-image: url(fotos/fondo.png);
+}
+
+.fotos1{
+    border: solid 2px;
+    border-radius: 50px;
+    height: 550px;
+    padding: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    border: solid 2px  #9e2a2b;
+    margin-left:0px;
+    
+    padding: 5px;
+    border-radius: 70px;
+    width: 550px;
+    height: 50px;
+    background-color: #9e2a2b;
+    
+}
+
+.head{
+margin-left: 650px;
+}
+
+@font-face{
+    src: url(fonts);
+    font-family: "NunitoSans-Regular";
+}
+
+@font-face{
+    src: url(fonts);
+    font-family: "NunitoSans-Bold"
+}
+
+.fotos1>p>img {
+    height: 400px;
+    width: 400px;
+    border:solid 5px #9e2a2b; 
+    border-radius: 70px;
+}
+
+p{
+    margin-left: 20px;
+    font-size: x-large;
+}
+.p2{
+    margin-top: -30px;
+}
+
+
+.fotos2{
+    margin-top: 15px;
+    border: solid 2px;
+    border-radius: 70px;
+    height: 700px;
+
+    
+}
+
+.fotos2>p>img {
+    height: 500px;
+    width: 400px;
+    border:solid 5px #9e2a2b;
+    border-radius: 70px; 
+}
+
+
+
+.fotos3{
+    border: solid 2px;
+    border-radius: 50px;
+    height: 550px;
+    padding: 10px;
+    
+}
+.fotos3>p>img {
+    height: 500px;
+    width: 400px;
+    border:solid 5px #9e2a2b;
+    border-radius: 70px; 
+}
+
+
+@media (max-width:900px){
+
+    .fotos1>p>img{
+        width:220px;
+        height: 180px;
+    }
+    .fotos1{
+        height: 400px;
+    }
+
+    .fotos2>p>img{
+        width: 200px;
+        height: 230px;
+    }
+    .fotos2{
+        height: 400px;
+    }
+
+    p{
+        font-size: medium;
+    }
+    h1{
+    
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 80px;
+    width: 350px;
+    background-color: #9e2a2b;
+    }
+}
+
+@media(max-width:414px){
+    h1{
+        margin-left: 0px;
+        margin-bottom: 5px;
+        height: 100px;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 70px;
+        width: 385px;
+        background-color: #9e2a2b;
+        border-color:  #9e2a2b;
+        
+    }
+
+    p{
+        font-size: medium;
+    }
+
+    .fotos1>p>img{
+        width: 230px;
+        height: 230px;
+    }
+
+    .fotos1{
+        height: 580px;
+        padding: 5px;
+    }
+
+    .fotos2>p>img{
+        width: 250px;
+        height: 230px;
+    }
+
+    .fotos2{
+        height: 650px;
+        padding: 5px;
+    }
+
+    .head{
+        margin: 0px;
+        background-color: none;
+    }
+
+    .fotos3>p>img{
+        width: 250px;
+        height: 280px;
+        margin-right: 2px;
+    }
+    .fotos3{
+        height: 800px;
+        padding: 0px;
+        margin-top: 5px;
+    }
+
+
+}
+
+
+
+
+
